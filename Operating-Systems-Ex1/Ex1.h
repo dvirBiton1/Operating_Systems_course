@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <limits.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <dirent.h>
+#include <sys/wait.h>
+#include <arpa/inet.h>
+int sock;
+int client_sock;
+void powerClient();
+void powerServer();
